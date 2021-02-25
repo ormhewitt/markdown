@@ -1,37 +1,101 @@
-## Welcome to GitHub Pages
+# Markdown Cheat Sheet
 
-You can use the [editor on GitHub](https://github.com/ormhewitt/markdown/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Thanks for visiting [The Markdown Guide](https://www.markdownguide.org)!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It canâ€™t cover every edge case, so if you need more information about any of these elements, refer to the reference guides for [basic syntax](https://www.markdownguide.org/basic-syntax) and [extended syntax](https://www.markdownguide.org/extended-syntax).
 
-### Markdown
+## Basic Syntax
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+These are the elements outlined in John Gruberâ€™s original design document. All Markdown applications support these elements.
 
-```markdown
-Syntax highlighted code block
+### Heading
 
-# Header 1
-## Header 2
-### Header 3
+# H1
+## H2
+### H3
 
-- Bulleted
-- List
+### Bold
 
-1. Numbered
-2. List
+**bold text**
 
-**Bold** and _Italic_ and `Code` text
+### Italic
 
-[Link](url) and ![Image](src)
+*italicized text*
+
+### Blockquote
+
+> blockquote
+
+### Ordered List
+
+1. First item
+2. Second item
+3. Third item
+
+### Unordered List
+
+- First item
+- Second item
+- Third item
+
+### Code
+
+`code`
+
+### Horizontal Rule
+
+---
+
+### Link
+
+[title](https://www.example.com)
+
+### Image
+
+![alt text](image.jpg)
+
+## Extended Syntax
+
+These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.
+
+### Table
+
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
+### Fenced Code Block
+
+```
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Footnote
 
-### Jekyll Themes
+Here's a sentence with a footnote. [^1]
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ormhewitt/markdown/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+[^1]: This is the footnote.
 
-### Support or Contact
+### Heading ID
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### My Great Heading {#custom-id}
+
+### Definition List
+
+term
+: definition
+
+### Strikethrough
+
+~~The world is flat.~~
+
+### Task List
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
